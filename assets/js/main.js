@@ -69,4 +69,77 @@ $(document).bind('click', function(e) {
 
 
 
+ 
+
+            $('#oneS1').click(function (e) {
+                e.preventDefault();
+                $("#slectedAmt").html("₹ 6,000");
+                document.getElementById("PrcA").value = 6000;
+                // $("#PrcA").value = 6000;
+                $("#first_name").filter(':visible').focus();
+
+            });
+
+            $('#oneS2').click(function (e) {
+                e.preventDefault()
+                $("#slectedAmt").html("₹ 12,000");
+                document.getElementById("PrcA").value = 12000;
+                $("#first_name").filter(':visible').focus();
+            });
+
+            $('#oneS3').click(function (e) {
+                e.preventDefault()
+                $("#slectedAmt").html("₹ 18,000");
+                document.getElementById("PrcA").value = 18000;
+                $("#first_name").filter(':visible').focus();
+            });
+
+            $('#oneS4').click(function (e) {
+                e.preventDefault()
+                $("#slectedAmt").html("₹ 36,000");
+                document.getElementById("PrcA").value = 36000;
+                $("#first_name").filter(':visible').focus();
+            });
+
+            $('#oneS5').click(function (e) {
+                e.preventDefault()
+                $("#slectedAmt").html("₹ 72,000");
+                document.getElementById("PrcA").value = 72000;
+                $("#first_name").filter(':visible').focus();
+            });
+
+            $('#oneS6').click(function (e) {
+                e.preventDefault()
+                $("#slectedAmt").html("₹ 1,44,000");
+                document.getElementById("PrcA").value = 144000;
+                $("#first_name").filter(':visible').focus();
+            });
+
+            $('#oneS8').click(function () {
+                // e.preventDefault()
+                var amt = $('#amt').val();
+                $("#slectedAmt").html("₹" + amt);
+                document.getElementById("PrcA").value = amt;
+                $("#first_name").filter(':visible').focus();
+            });
+
+
+             var swiper = new Swiper('.swiper_donation', {
+              // spaceBetween: 30,
+              slidesPerView: 1,
+              spaceBetween: 60,
+              loop: true,
+              pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+              },
+              navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+              },
+            });
+
+
+
+
 })(jQuery);

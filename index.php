@@ -71,6 +71,27 @@
 		</div>
 	</section>
 
+	<section class="bg-light">
+		<p>Popups</p>
+		<ul>
+			<li class="nav-item">
+	          <a class="nav-link" data-fancybox data-src="#confirm_donation_modal" href="#">confirm_donation_modal</a>
+	        </li>
+			<li class="nav-item">
+	          <a class="nav-link" data-fancybox data-src="#payment_option_modal" >payment_option_modal</a>
+	        </li>
+	         <li class="nav-item">
+	          <a class="nav-link" data-fancybox data-src="#payment_confirmation_modal" >payment_confirmation_modal</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" data-fancybox data-src="#payment_status_modal" >payment_status_modal</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" data-fancybox data-src="#confirm_your_donation_modal" >confirm_your_donation_modal</a>
+	        </li>	
+		</ul>
+	</section>
+
 	<section class="statistics">
 		<div class="container">
 			<div class="row">
