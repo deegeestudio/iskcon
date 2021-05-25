@@ -28,13 +28,13 @@
 <body>
 
 	<header class="header" id="header">
-		<div class="container-fluid">
+		<div class="w-100">
 			<nav class="navbar navbar-expand-lg navbar-light ">
-			  <a class="navbar-brand" href="#"><img src="assets/img/logo.jpg" alt="Logo" class="img-fluid"> | <span class="font-bold">Mayapur</span></a>
-			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			  <a class="navbar-brand" href="index.php"><img src="assets/img/logo.jpg" alt="Logo" class="img-fluid"> | <span class="font-bold">Mayapur</span></a>
+			 
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			    <span class="navbar-toggler-icon"></span>
-			  </button>
-
+			</button>	
 			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 			    <ul class="navbar-nav ml-auto">
 
@@ -65,24 +65,30 @@
 			    </ul> 
 			  </div>
 
+				<div class="right_menu">
+					<div class="nav-item font-weight-bold text-dark" href="javascript:void(0)">
+					  	<a href="javascript:void(0)" data-fancybox data-src="#signup_modal" class=""> <img src="assets/img/icons/signup.svg" alt="signup">  Sign Up</a>  / 
+					  	<a href="javascript:void(0)" data-fancybox data-src="#login_modal"  class="">Login</a> 
+					</div>
 
-			  	<a class="nav-link font-weight-bold text-dark" href="javascript:void(0)">
-				  	<a href="javascript:void(0)" data-fancybox data-src="#signup_modal" class=""> <img src="assets/img/icons/signup.svg" alt="signup">  Sign Up</a>  / 
-				  	<a href="javascript:void(0)" data-fancybox data-src="#login_modal"  class="">Login</a> 
-				</a>
- 
-			  	<div class="dropdown show profile_dropdown">
-				  <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				    <img src="assets/img/profile.png" alt="profile">
-				  </a>
+				  	<div class="dropdown show profile_dropdown">
+					  <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					    <img src="assets/img/profile.png" alt="profile">
+					  </a>
 
-				  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-				    <a class="dropdown-item" href="profile.php"><img src="assets/img/icons/profile.svg" alt="profile"> Profile</a>
-				    <a class="dropdown-item" href="#"><img src="assets/img/icons/signup.svg" alt="signup"> Logout</a> 
-				  </div>
+					  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+					    <a class="dropdown-item" href="profile.php"><img src="assets/img/icons/profile.svg" alt="profile"> Profile</a>
+					    <a class="dropdown-item" href="#"><img src="assets/img/icons/signup.svg" alt="signup"> Logout</a> 
+					  </div>
+					</div>
 				</div>
+			  	
 
+				
 			</nav>
+
+			
+
 		</div>
  
 
@@ -164,7 +170,7 @@
 					<div class="check_box">
 						<input type="checkbox" id="register_checkbox" name="radio-group" required=""> 
 						<label for="register_checkbox">I agree to the <a class="font-weight-bold text-dark" href="#">terms and conditions</a> and <a class="font-weight-bold text-dark">privacy policy</a></label>
-						</div>
+					</div>
 				</div>
 				<div class="col-md-12">
 					<input type="submit" class="btn btn-primary" value="Next"> 

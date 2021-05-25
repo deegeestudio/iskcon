@@ -3,9 +3,7 @@
 
 
 
-	$(document).ready(function() {
-	 	// console.log("hello");
-	});
+	
 	$(function () {
 	  $('[data-toggle="tooltip"]').tooltip()
 	})
@@ -23,6 +21,17 @@
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
+       breakpoints: {
+          640: { 
+            spaceBetween: 20,
+          },
+          768: { 
+            spaceBetween: 40,
+          },
+          1024: { 
+            spaceBetween: 60,
+          },
+        },
     });
 
  	var swiper = new Swiper('.swiper_home_banner_notused', {
@@ -67,6 +76,40 @@ $(document).bind('click', function(e) {
         $(".drop-down .options ul").hide();
 });
 
+
+function checkForInput(element) {
+  // element is passed to the function ^
+  
+  const $label = $(element).siblings('label');
+
+  if ($(element).val().length > 0) {
+    $label.addClass('input-has-value');
+  } else {
+    $label.removeClass('input-has-value');
+  } 
+}
+
+
+$(document).ready(function() {
+    // console.log("hello");
+
+  // The lines below are executed on page load
+  $('.form-control').each(function() {
+    checkForInput(this); 
+
+  });
+
+  // The lines below (inside) are executed on change & keyup
+  $('.form-control').on('change keyup', function() {
+    checkForInput(this); 
+
+  });
+
+  $('.form-control').change(function() { 
+      checkForInput(this); 
+  });
+
+});
 
 
  

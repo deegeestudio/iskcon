@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3">
-					<img src="assets/img/logo.jpg" alt="logo" class="img-fluid">
+					<img src="assets/img/logo.jpg" alt="logo" class="img-fluid footer_logo">
 				</div>
 				<div class="col-md-2">
 					<h4>Main</h4>
@@ -24,7 +24,7 @@
 					</ul>
 				</div>
 				<div class="col-md-4">
-					<div class="d-flex">
+					<div class="d-flex social_icons">
 					
 						<a href="#" class="ml-3"><img src="assets/img/icons/facebook.svg" alt="fb" class="img-fluid"></a>
 						<a href="#" class="ml-3"><img src="assets/img/icons/instagram.svg" alt="instagram" class="img-fluid"></a>

@@ -1,0 +1,21 @@
+<svg id="Group_9044" data-name="Group 9044" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #ea742a;
+      }
+    </style>
+  </defs>
+  <rect id="Rectangle_3062" data-name="Rectangle 3062" class="cls-1" width="40" height="40" rx="8"/>
+  <g id="bank" transform="translate(10.756 10.722)">
+    <path id="Path_1390" data-name="Path 1390" class="cls-2" d="M368.927,220.854h3.408v6.018h-3.408Z" transform="translate(-355.586 -212.848)"/>
+    <path id="Path_1391" data-name="Path 1391" class="cls-2" d="M208.927,220.854h3.408v6.018h-3.408Z" transform="translate(-201.387 -212.848)"/>
+    <path id="Path_1392" data-name="Path 1392" class="cls-2" d="M18.328,416.854H2.015a1.089,1.089,0,0,0-1.088,1.088v1.269A1.089,1.089,0,0,0,2.015,420.3H18.328a1.089,1.089,0,0,0,1.088-1.088v-1.269A1.089,1.089,0,0,0,18.328,416.854Z" transform="translate(-0.927 -401.742)"/>
+    <path id="Path_1393" data-name="Path 1393" class="cls-2" d="M18.734,3.414,10.575.078a1.083,1.083,0,0,0-.812,0L1.609,3.414A1.082,1.082,0,0,0,.927,4.423V5.831A1.089,1.089,0,0,0,2.015,6.919H18.328a1.089,1.089,0,0,0,1.088-1.088V4.423a1.082,1.082,0,0,0-.682-1.009Zm-8.019.641a.544.544,0,1,1-1.088,0V2.895a.544.544,0,1,1,1.088,0Z" transform="translate(-0.927 0)"/>
+    <path id="Path_1394" data-name="Path 1394" class="cls-2" d="M48.927,220.854h3.408v6.018H48.927Z" transform="translate(-47.187 -212.848)"/>
+  </g>
+</svg>
