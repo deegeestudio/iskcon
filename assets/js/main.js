@@ -186,3 +186,29 @@ $(document).ready(function() {
 
 
 })(jQuery);
+
+
+  function donation_selected(elm, donation_amt) {
+    // e.preventDefault();
+    $(".radio_container").removeClass("active");
+    $(elm).addClass("active");
+    $("#slectedAmt").html("₹ "+donation_amt);
+    document.getElementById("PrcA").value = donation_amt;
+
+  }
+
+  function custom_donation_selected(elm) {
+    // e.preventDefault();
+    $(".radio_container").removeClass("active");
+    
+    var donation_amt = $('input[name = custom_donate_amt]').val();
+    if (isNaN(donation_amt) || donation_amt=="") {
+      alert("Please enter amount in numbers.");
+      donation_amt = 0;
+      $(elm).children("input[type='radio']").prop('checked', false);
+    }else{
+      $(elm).addClass("active");
+    }
+    $("#slectedAmt").html("₹ "+donation_amt);
+    document.getElementById("PrcA").value = donation_amt;
+  }

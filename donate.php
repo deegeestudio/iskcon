@@ -32,17 +32,12 @@
         <h1 class="text-center section_title head-donate">Donate for Anna Daan</h1>
         <p class="text-center">Anna Daan is considered as one of the most pious <br> activities a person can perform.</p>
         <div class="row">
-            
-            	<!-- <div class="col-md-12">
-            		<p class="para-donate">Anna Daan is considered as one of the most pious activities a person can
-                        perform. Donate generously to provide nutritious wholesome meals for students of the gurukul.
-                    </p>
-            	</div> -->
+             
              
 
                 <div class="col-md-7">
 
-                	<div class="row">
+                	<div class="row d-none">
                     	<div class="col-lg-12 col-md-12 mb-3">
                             <div class="row">
                                 <div class="col-md-9 no-padding">
@@ -125,8 +120,40 @@
                     
                     </div>
 
+                    <div class="donation_selector"> 
+
+                		<label class="radio_container active"  onclick="donation_selected(this,'3000')">Feed <span>100 people = ₹3,000</span>
+						  <input type="radio" checked="checked" name="donate_amt_radio">
+						  <span class="checkmark"></span>
+						</label>
+
+						<label class="radio_container" onclick="donation_selected(this,'6000')">Feed <span>200 people = ₹6,000</span>
+						  <input type="radio" name="donate_amt_radio">
+						  <span class="checkmark"></span>
+						</label>
+						<label class="radio_container" onclick="donation_selected(this,'15000')">Feed <span>500 people = ₹15,000</span>
+						  <input type="radio" name="donate_amt_radio">
+						  <span class="checkmark"></span>
+						</label>
+						<label class="radio_container" onclick="donation_selected(this,'30000')">Feed <span>1000 people = ₹30,000</span>
+						  <input type="radio" name="donate_amt_radio">
+						  <span class="checkmark"></span>
+						</label>
+						<label class="radio_container" onclick="donation_selected(this,'90000')">Feed <span>3000 people = ₹90,000</span>
+						  <input type="radio" name="donate_amt_radio">
+						  <span class="checkmark"></span>
+						</label>
+						<label class="radio_container custom_radio"  onclick="custom_donation_selected(this)">
+						  <input type="radio" name="donate_amt_radio">
+						  <span class="checkmark"></span>
+						</label>
+						<input type="text" class="custom_donate_amt" name="custom_donate_amt"  placeholder="Enter Custom Amount (₹)">
+                    </div>
+
                 </div>
+             <script type="text/javascript">
              
+             </script>
             	<div class="col-md-5">
             	 
             		<div class="swiper-container swiper_donation">
@@ -155,8 +182,8 @@
             <form id="form" method="POST" action="#">
             	<div class="orange_lbl text-center">PERSONAL INFO</div>
                 <!-- <h2 class="head-donate">Personal Info</h2> -->
-                <p class="options">Your selected amount: <span id="slectedAmt">₹ 36,000</span></p>
-                <input type="hidden" value="36000" id="PrcA" name="student">
+                <p class="options">Your selected amount: <span id="slectedAmt">₹ 3,000</span></p>
+                <input type="hidden" value="3000" id="PrcA" name="final_donation_amount">
                 <div class="row">
 
                     <div class="col-md-6 form-group">
@@ -190,33 +217,25 @@
 	                
 
                 </div>
- 
+ 					
                 <div class="text-center">
-                	<div class="check_box">
+                	<label class="check_box_container">
+                		I agree to the <a class="font-weight-bold text-dark" href="#">terms and conditions</a> and <a class="font-weight-bold text-dark">privacy policy</a>
+						<input type="checkbox">
+					  	<span class="checkbox_checkmark"></span>
+					</label>
+
+                	<!-- <div class="check_box">
 						<input type="checkbox" id="donate_checkbox" name="radio-group" required=""> 
 						<label for="donate_checkbox">I agree to the <a class="font-weight-bold text-dark" href="#">terms and conditions</a> and <a class="font-weight-bold text-dark">privacy policy</a></label>
-					</div> 
+					</div> -->
+
                     <button id="submit" class="btn btn-primary donate-btn">Submit</button>
                     <p class="mb-0 mt-3 text-center font-weight-bold"> <img src="assets/img/icons/shield_check.svg" alt="check"> Your payments are 100% secure</p>
                 </div>
 
             </form>
-                    
-            <!-- <div class="col-lg-5 offset-lg-1">
-                <h2 class="head-donate">Payment Options</h2>
-                <p class="head-donate">Donate Through Bank</p>
-                <p class="bold-options">Bank Name: ICICI Bank</p>
-                <p class="bold-options">Account Name: ISKCON GURUKUL</p>
-
-                <p class="bold-options">Account No.: 402401000479</p>
-
-                <p class="bold-options">IFSC Code: ICIC0004024</p>
-
-                <p class="head-donate">Donate Through UPI</p>
-                <p class="bold-options">UPI ID: iskcon.gurukul@icici</p>
-                <p class="head-donate">Donate Through Scan(UPI)</p>
-                <img src="assets/img/scan_qr.jpg" style="width: 50%;">
-            </div> -->
+                     
              
         </div>
     </div>

@@ -70,6 +70,11 @@
 	.form-control{     font-size: 21px; }
 	.swiper_home_banner .swiper-slide{padding-bottom: 10px;}
 	.frequency_radios [type="radio"]:checked + label, .frequency_radios [type="radio"]:not(:checked) + label, .no_of_meals{     font-size: 27px; }
+	.radio_container{ font-size: 16px; }
+
+	.faq-section .card-header h5 a {   font-size: 17px;  padding-right: 12px; }
+	.faq-section .card { margin-bottom: 30px; padding: 20px 10px; }
+	section { padding: 50px 0px; }
 }
 
 @media(max-width: 520px){
@@ -83,7 +88,7 @@
 	.banner_content{ padding: 0px; }
 	.testimonial .content{padding: 10px;}
 	.testimonial{ margin: 0px 8px; }
-
+	.fancybox-slide{ padding: 15px; }
 	.fancybox-content{    padding: 35px 20px;}
 	.frequency_radios [type="radio"]:checked + label, .frequency_radios [type="radio"]:not(:checked) + label, .no_of_meals{font-size: 20px;}
 }

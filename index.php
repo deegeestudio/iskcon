@@ -303,10 +303,15 @@
 							    </div>
 							</div>
 							<div class="col-md-12 text-center mb-4">
-								<div class="check_box">
+								<label class="check_box_container">
+			                		I agree to the <a class="font-weight-bold text-dark" href="#">terms and conditions</a> and <a class="font-weight-bold text-dark">privacy policy</a>
+									<input type="checkbox">
+								  	<span class="checkbox_checkmark"></span>
+								</label>
+								<!-- <div class="check_box">
 									<input type="checkbox" id="test3" name="radio-group" required=""> 
 									<label for="test3">I agree to the <a class="font-weight-bold text-dark">terms and conditions</a> and <a class="font-weight-bold text-dark">privacy policy</a></label>
-									</div>
+								</div> -->
 							</div>
 							<div class="col-md-12 text-center">
 								<input type="submit" class="btn btn-primary" value="Get Newletters">
