@@ -337,7 +337,7 @@
 				<div class="info_bkgs"> 
 					<div class="content px-lg-4 px-2">
 						<div class="orange_lbl">TAX EXEMPTION</div>
-						 <p  class="font-weight-bold text-dark" style=" font-size: 20px;">AVAIL 80G BENEFITS ON ALL THE DONATIONS MADE TO ISKCON BHIWANDI <br> (Preaching center- ISKCON JUHU)</p> 
+						 <p  class="font-weight-bold text-dark" style=" font-size: 20px;">AVAIL 80G BENEFITS ON ALL THE DONATIONS MADE TO ISKCON Gurukula</p> 
 						<p>Exemption Certificate Ref. No.: आ. नि. (छू.) मु. न./80-जी/1667/2007/2008-2009 <br> Validity extended perpetually vide CBDT Circular No. 7/2010 dated 27/10/2010</p>
 					</div>
 				</div>
