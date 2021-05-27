@@ -518,6 +518,22 @@ content: '';
 /*--------------------------------------------------------------
 # Donate page css
 --------------------------------------------------------------*/
+.donation_banner{
+  /*background-image: url(../img/IMG-20210218-WA0051.jpg);*/
+    background-image: linear-gradient(rgb(0 0 0 / 20%), rgb(0 0 0 / 40%)), url(../img/IMG-20210218-WA0052.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85vh;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.donation_banner .section_title {
+    color: #ffffff;
+}
 .progress_bar {
   margin: 20px 0px;
   max-width: 376px;

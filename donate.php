@@ -1,6 +1,6 @@
 <?php include 'common/header.php'; ?>
 
-<section>
+<!-- <section>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-7">
@@ -24,7 +24,20 @@
 			</div>
 		</div>
 	</div>
+</section> -->
+
+<section class="donation_banner">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="banner_content"> 
+					<h2 class="section_title">Donate for Anna Daan</h2> 
+				</div>
+			</div> 
+		</div>
+	</div>
 </section>
+
 
 <section id="steps" class="donate_steps section-bg">
     <div class="container">
@@ -158,8 +171,21 @@
             	 
             		<div class="swiper-container swiper_donation">
 			            <div class="swiper-wrapper">
-			                <div class="swiper-slide"><img class="img-fluid w-100 rounded" src="assets/img/donate1.jpg" alt="donate1"></div>
-			                <div class="swiper-slide"><img class="img-fluid w-100 rounded" src="assets/img/donate2.jpg" alt="donate1"></div> 
+			                <!-- <div class="swiper-slide"><img class="img-fluid w-100 rounded" src="assets/img/donate1.jpg" alt="donate1"></div> -->
+			                <!-- <div class="swiper-slide"><img class="img-fluid w-100 rounded" src="assets/img/donate2.jpg" alt="donate1"></div>  -->
+			                 <div class="swiper-slide">
+                                <img src="assets/img/IMG-20210218-WA0050.jpg" class="img-fluid w-100 rounded">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/img/IMG-20210218-WA0051.jpg" class="img-fluid w-100 rounded">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/img/IMG-20210218-WA0052.jpg" class="img-fluid w-100 rounded">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/img/IMG-20210218-WA0053.jpg" class="img-fluid w-100 rounded">
+                            </div>
+
 			            </div>
 			            <!-- Add Pagination -->
 			            <!-- <div class="swiper-pagination swiper-pagination-white"></div> -->
@@ -177,67 +203,86 @@
 
 <section id="donate1" class="features">
     <div class="container">
-        <div class="col-lg-12">
-           
-            <form id="form" method="POST" action="#">
-            	<div class="orange_lbl text-center">PERSONAL INFO</div>
-                <!-- <h2 class="head-donate">Personal Info</h2> -->
-                <p class="options">Your selected amount: <span id="slectedAmt">₹ 3,000</span></p>
-                <input type="hidden" value="3000" id="PrcA" name="final_donation_amount">
-                <div class="row">
+    	<div class="row">
+    		
+    	
+	        <div class="col-lg-7">
+	           
+	            <form id="form" method="POST" action="#">
+	            	<div class="orange_lbl text-center">PERSONAL INFO</div>
+	                <!-- <h2 class="head-donate">Personal Info</h2> -->
+	                <p class="options">Your selected amount: <span id="slectedAmt">₹ 3,000</span></p>
+	                <input type="hidden" value="3000" id="PrcA" name="final_donation_amount">
+	                <div class="row">
 
-                    <div class="col-md-6 form-group">
-                        <input type="text" name="first_name" class="form-control" id="first_name"  required autocomplete="off">
-                        <label for="first_name">Full Name*</label>
-                        <span id="errorMsgName" class="errorMsgs"></span> 
-                    </div>
-                    <div class="col-md-6 form-group">
-                        <input type="text" class="form-control" name="mobile" required id="donation_mobile">
-				        <label for="donation_mobile">Your Mobile*</label>  
-                        <span id="errorMsgPhone" class="errorMsgs"></span>
-                    </div>
+	                    <div class="col-md-6 form-group">
+	                        <input type="text" name="first_name" class="form-control" id="first_name"  required autocomplete="off">
+	                        <label for="first_name">Full Name*</label>
+	                        <span id="errorMsgName" class="errorMsgs"></span> 
+	                    </div>
+	                    <div class="col-md-6 form-group">
+	                        <input type="text" class="form-control" name="mobile" required id="donation_mobile">
+					        <label for="donation_mobile">Your Mobile*</label>  
+	                        <span id="errorMsgPhone" class="errorMsgs"></span>
+	                    </div>
 
-                    <div class="col-md-6 form-group">
-                        <input type="email" class="form-control" name="email" required id="donation_email">
-				        <label for="donation_email">Your Email*</label>  
-                        <span id="errorMsgEmail" class="errorMsgs"></span> 
-                    </div>
+	                    <div class="col-md-6 form-group">
+	                        <input type="email" class="form-control" name="email" required id="donation_email">
+					        <label for="donation_email">Your Email*</label>  
+	                        <span id="errorMsgEmail" class="errorMsgs"></span> 
+	                    </div>
 
-                    <div class="col-md-6 form-group">
-	                    <input type="text" class="form-control" name="pan_card"  id="pan" data-rule="minlen:4" data-msg="Please enter at least 8 chars of pan card">
-					    <label for="pan">PAN Card*</label>
+	                    <div class="col-md-6 form-group">
+		                    <input type="text" class="form-control" name="pan_card"  id="pan" data-rule="minlen:4" data-msg="Please enter at least 8 chars of pan card">
+						    <label for="pan">PAN Card*</label>
+		                    
+		                </div>
 	                    
+	                    <div class="col-md-12 form-group">
+		                    <textarea class="form-control" id="donation_address" name="address_1" rows="2"></textarea>
+		                    <label for="donation_address">Address*</label>
+		                    <p class="position-relative" style="top:-20px;color: rgba(36, 36, 36, 0.5);">*PAN and Address are mandatory for 80G receipt. Please enter your PAN.</p>
+		                </div>
+		                
+
 	                </div>
-                    
-                    <div class="col-md-12 form-group">
-	                    <textarea class="form-control" id="donation_address" name="address_1" rows="2"></textarea>
-	                    <label for="donation_address">Address*</label>
-	                    <p class="position-relative" style="top:-20px;color: rgba(36, 36, 36, 0.5);">*PAN and Address are mandatory for 80G receipt. Please enter your PAN.</p>
+	 					
+	                <div class="text-center">
+	                	<label class="check_box_container">
+	                		I agree to the <a class="font-weight-bold text-dark" href="#">terms and conditions</a> and <a class="font-weight-bold text-dark">privacy policy</a>
+							<input type="checkbox">
+						  	<span class="checkbox_checkmark"></span>
+						</label>
+
+	                	<!-- <div class="check_box">
+							<input type="checkbox" id="donate_checkbox" name="radio-group" required=""> 
+							<label for="donate_checkbox">I agree to the <a class="font-weight-bold text-dark" href="#">terms and conditions</a> and <a class="font-weight-bold text-dark">privacy policy</a></label>
+						</div> -->
+
+	                    <button id="submit" class="btn btn-primary donate-btn">Submit</button>
+	                    <p class="mb-0 mt-3 text-center font-weight-bold"> <img src="assets/img/icons/shield_check.svg" alt="check"> Your payments are 100% secure</p>
 	                </div>
-	                
 
-                </div>
- 					
-                <div class="text-center">
-                	<label class="check_box_container">
-                		I agree to the <a class="font-weight-bold text-dark" href="#">terms and conditions</a> and <a class="font-weight-bold text-dark">privacy policy</a>
-						<input type="checkbox">
-					  	<span class="checkbox_checkmark"></span>
-					</label>
+	            </form>
+	        </div>
+	        <div class="col-lg-5"> 
+				<div class="info_bkgs image_seperate_row">
+					<img src="assets/img/icons/bank.svg" alt="bank" class="img-fluid iconimage">
+					<div class="content">
+						
+						<div class="row">
+							<div class="col-12"><p><span class="font-weight-bold">Account Name:</span> “International Society For Krishna Consciousness – FCRA”</p></div>
+							<div class="col-md-12"><p><span class="font-weight-bold">Account No: </span>  8512103714</p></div>
+							<div class="col-md-12"><p><span class="font-weight-bold">Bank Name: </span> Kotak Bank</p></div>
+							<div class="col-md-12"><p><span class="font-weight-bold">IFSC: </span>  KKBK0006570</p></div>
+							<div class="col-md-12"><p><span class="font-weight-bold">Branch: </span> H. B. Sarani, Kolkata.</p></div>
+							<div class="col-12"><p class="mb-0"><span class="font-weight-bold">Bank address:</span> 21, Centre Point Building, Hemanta Basu Sarani, Kolkata: 700001</p></div>
+						</div>
+					</div>
+				</div>
+			</div>
 
-                	<!-- <div class="check_box">
-						<input type="checkbox" id="donate_checkbox" name="radio-group" required=""> 
-						<label for="donate_checkbox">I agree to the <a class="font-weight-bold text-dark" href="#">terms and conditions</a> and <a class="font-weight-bold text-dark">privacy policy</a></label>
-					</div> -->
-
-                    <button id="submit" class="btn btn-primary donate-btn">Submit</button>
-                    <p class="mb-0 mt-3 text-center font-weight-bold"> <img src="assets/img/icons/shield_check.svg" alt="check"> Your payments are 100% secure</p>
-                </div>
-
-            </form>
-                     
-             
-        </div>
+		</div>
     </div>
 </section>
 
@@ -245,7 +290,7 @@
 <section class="account_infos">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-9"> 
+			<!-- <div class="col-md-9"> 
 				<div class="info_bkgs image_seperate_row">
 					<img src="assets/img/icons/bank.svg" alt="bank" class="img-fluid iconimage">
 					<div class="content">
@@ -260,8 +305,8 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-md-3">
+			</div> -->
+			<!-- <div class="col-md-3">
 				<div class="info_bkgs text-center">
 					<img src="assets/img/icons/qr_code.png" alt="qr" class="img-fluid m-auto">
 					<p class=" font-weight-bold">Scan QR</p>
@@ -286,9 +331,9 @@
 						<div><a href="iskcon.donate@icici" class="font-weight-bold text-dark" style=" font-size: 20px;">iskcon.donate@icici</a></div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 
-			<div class="col-md-12">
+			<div class="col-md-12 mb-3">
 				<div class="info_bkgs"> 
 					<div class="content px-lg-4 px-2">
 						<div class="orange_lbl">TAX EXEMPTION</div>
@@ -297,6 +342,19 @@
 					</div>
 				</div>
 			</div>
+
+
+			<div class="col-md-12">
+				<div class="info_bkgs"> 
+					<div class="content px-lg-4 px-2">
+						<!-- <div class="orange_lbl">TAX EXEMPTION</div> -->
+						 <p  class="font-weight-bold text-dark" style=" font-size: 18px;">Gentle Request! While doing Paytm/UPI App Payments or Bank (NEFT/ RTGS) please send us screen shot alongwith Complete address and PAN Details on our Whatsapp Number- +91 9321-961-341 or to our mail ID- iskcon.gurukula@gmail.com. You may also call on this number for other queries.</p>
+					</div>
+				</div>
+			</div>
+
+			
+
 
 
 		</div>
