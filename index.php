@@ -26,11 +26,11 @@
 									</div>
 
 									<div class="col-md-6"> 
-										<div class="group_images_ ">
+										<!-- <div class="group_images ">
 											<div class="position-relative">
 											 	<img src="assets/img/banner.jpg" alt="banner" class=" img-fluid"> 
 											 </div>
-											 <!-- <div class="d-flex align-items-center">
+											 <div class="d-flex align-items-center">
 											 	<img src="assets/img/homebanner/homebanner7.png" alt="">
 											 	<div class="d-block">
 											 		<img src="assets/img/homebanner/homebanner1.png" alt="">
@@ -39,13 +39,33 @@
 											 			<img src="assets/img/homebanner/homebanner3.png" alt=""> 
 											 		</div>
 											 	</div>
-											 	<div class="d-lg-block d-md-none">
+											 	<div class="d-block">
 											 		<img src="assets/img/homebanner/homebanner4.png" alt="">
 											 		<img src="assets/img/homebanner/homebanner2.png" alt="">
 											 		<img src="assets/img/homebanner/homebanner5.png" alt=""> 
 											 	</div>
-											 </div> -->
-										</div> 
+											 </div>
+										</div>  -->
+										<div class="custom_group_images">
+											<div class="gi_col_1">
+												<img src="assets/img/homebanner/homebanner7.png" alt="" class="homeimg1 banner_sm_img">
+											</div>
+											<div class="gi_col_2">
+												<img src="assets/img/homebanner/homebanner1.png" alt="" class="homeimg2 banner_lg_img">
+										 		<div class="d-flex align-items-start justify-content-center">
+										 			<img src="assets/img/homebanner/homebanner6.png" alt="" class="homeimg3 banner_sm_img" >
+										 			<img src="assets/img/homebanner/homebanner3.png" alt="" class="homeimg4 banner_md_img"> 
+										 		</div>
+											</div>
+											<div class="gi_col_3">
+												<div class="d-block">
+											 		<img src="assets/img/homebanner/homebanner4.png" alt="" class="homeimg5 banner_sm_img" >
+											 		<img src="assets/img/homebanner/homebanner2.png" alt="" class="homeimg6 banner_md_img">
+											 		<img src="assets/img/homebanner/homebanner5.png" alt="" class="homeimg7 banner_sm_img" > 
+											 	</div>
+											</div>
+										</div>
+
 									</div>
 
 								</div>

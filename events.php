@@ -29,11 +29,25 @@
 								</div>
 							</div>
 							<div class="col-md-6"> 
-								<div class="group_images_events">
+								<!-- <div class="group_images_events">
 									 <div class="position-relative">
 									 	<img src="assets/img/events_banner.jpg" alt="about" class=" img-fluid"> 
 									 </div>
-								</div> 
+								</div>  -->
+								<div class="custom_group_images_events">
+									<div class="eb_col_1">
+										<img src="assets/img/eventbanner3.jpg" alt="event1" class="event_img1 eventbanner_horiz">
+									</div>
+									<div class="eb_col_2">
+										<img src="assets/img/eventbanner1.jpg" alt="event1" class="event_img2 eventbanner_verti">
+										<img src="assets/img/eventbanner2.jpg" alt="event1" class="event_img3 eventbanner_verti">
+
+									</div>
+									<div class="eb_col_3">
+										<img src="assets/img/eventbanner4.jpg" alt="event1" class="event_img4 eventbanner_horiz">
+										<img src="assets/img/eventbanner5.jpg" alt="event1" class="event_img5 eventbanner_horiz">
+									</div>
+								</div>
 							</div>
 							<!-- event1 end  -->
 
@@ -48,11 +62,20 @@
 								</div>
 							</div>
 							<div class="col-md-6"> 
-								<div class="group_images_events">
-									 <div class="position-relative">
-									 	<img src="assets/img/events_banner.jpg" alt="about" class=" img-fluid"> 
-									 </div>
-								</div> 
+								<div class="custom_group_images_events">
+									<div class="eb_col_1">
+										<img src="assets/img/eventbanner3.jpg" alt="event1" class="event_img1 eventbanner_horiz">
+									</div>
+									<div class="eb_col_2">
+										<img src="assets/img/eventbanner1.jpg" alt="event1" class="event_img2 eventbanner_verti">
+										<img src="assets/img/eventbanner2.jpg" alt="event1" class="event_img3 eventbanner_verti">
+
+									</div>
+									<div class="eb_col_3">
+										<img src="assets/img/eventbanner4.jpg" alt="event1" class="event_img4 eventbanner_horiz">
+										<img src="assets/img/eventbanner5.jpg" alt="event1" class="event_img5 eventbanner_horiz">
+									</div>
+								</div>
 							</div>
 							<!-- event2 end  -->
 
@@ -70,11 +93,20 @@
 								</div>
 							</div>
 							<div class="col-md-6"> 
-								<div class="group_images_events group_images_events_last">
-									 <div class="position-relative">
-									 	<img src="assets/img/events_banner.jpg" alt="about" class=" img-fluid"> 
-									 </div>
-								</div> 
+								<div class="custom_group_images_events group_images_events_last">
+									<div class="eb_col_1">
+										<img src="assets/img/eventbanner3.jpg" alt="event1" class="event_img1 eventbanner_horiz">
+									</div>
+									<div class="eb_col_2">
+										<img src="assets/img/eventbanner1.jpg" alt="event1" class="event_img2 eventbanner_verti">
+										<img src="assets/img/eventbanner2.jpg" alt="event1" class="event_img3 eventbanner_verti">
+
+									</div>
+									<div class="eb_col_3">
+										<img src="assets/img/eventbanner4.jpg" alt="event1" class="event_img4 eventbanner_horiz">
+										<img src="assets/img/eventbanner5.jpg" alt="event1" class="event_img5 eventbanner_horiz">
+									</div>
+								</div>
 							</div>
 							<!-- event3 end  -->
 
@@ -95,11 +127,20 @@
 								</div>
 							</div>
 							<div class="col-md-6"> 
-								<div class="group_images_events">
-									 <div class="position-relative">
-									 	<img src="assets/img/events_banner.jpg" alt="about" class=" img-fluid"> 
-									 </div>
-								</div> 
+								<div class="custom_group_images_events  ">
+									<div class="eb_col_1">
+										<img src="assets/img/eventbanner3.jpg" alt="event1" class="event_img1 eventbanner_horiz">
+									</div>
+									<div class="eb_col_2">
+										<img src="assets/img/eventbanner1.jpg" alt="event1" class="event_img2 eventbanner_verti">
+										<img src="assets/img/eventbanner2.jpg" alt="event1" class="event_img3 eventbanner_verti">
+
+									</div>
+									<div class="eb_col_3">
+										<img src="assets/img/eventbanner4.jpg" alt="event1" class="event_img4 eventbanner_horiz">
+										<img src="assets/img/eventbanner5.jpg" alt="event1" class="event_img5 eventbanner_horiz">
+									</div>
+								</div>
 							</div>
 							<!-- event2 end  -->
 
@@ -117,11 +158,20 @@
 								</div>
 							</div>
 							<div class="col-md-6"> 
-								<div class="group_images_events group_images_events_last">
-									 <div class="position-relative">
-									 	<img src="assets/img/events_banner.jpg" alt="about" class=" img-fluid"> 
-									 </div>
-								</div> 
+								<div class="custom_group_images_events group_images_events_last">
+									<div class="eb_col_1">
+										<img src="assets/img/eventbanner3.jpg" alt="event1" class="event_img1 eventbanner_horiz">
+									</div>
+									<div class="eb_col_2">
+										<img src="assets/img/eventbanner1.jpg" alt="event1" class="event_img2 eventbanner_verti">
+										<img src="assets/img/eventbanner2.jpg" alt="event1" class="event_img3 eventbanner_verti">
+
+									</div>
+									<div class="eb_col_3">
+										<img src="assets/img/eventbanner4.jpg" alt="event1" class="event_img4 eventbanner_horiz">
+										<img src="assets/img/eventbanner5.jpg" alt="event1" class="event_img5 eventbanner_horiz">
+									</div>
+								</div>
 							</div>
 							<!-- event3 end  -->
 

@@ -9,6 +9,13 @@
 	.past_donations_list li{    font-size: 14px;}
 	.profile_card h2{ font-size: 30px; }
 	.drop-down .selected a{width: auto;}
+
+	.banner_sm_img{width: 52px; }
+	.banner_md_img{width: 105px; }
+	.banner_lg_img{width: 156px; }
+	.custom_group_images {
+	    justify-content: space-between;
+	}
 }
 
 @media(max-width: 991px){
@@ -75,12 +82,27 @@
 	.faq-section .card-header h5 a {   font-size: 17px;  padding-right: 12px; }
 	.faq-section .card { margin-bottom: 30px; padding: 20px 10px; }
 	section { padding: 50px 0px; }
+
+	.group_images_events:before , .custom_group_images_events:before{
+		content: '';
+	    width: 0;
+	    height: 100%;
+	    position: absolute;
+	    border: 2px solid #e5e5e5;
+	    top: 94px;
+	    left: -20px;
+	}
+	.group_images_events_last:before {height: 0px;}
 }
 
 @media(max-width: 520px){
 	/*.event_content:before{left: 5px;}
 	.event_content:after{ left: 3px; }
 	.event_content, .group_images_events{padding-left: 20px;}*/
+ 
+	.banner_sm_img{width: 56px; }
+	.banner_md_img{width: 110px; }
+	.banner_lg_img{width: 166px; }
 
 	.event_content{margin-bottom: 40px} 
 	.header .navbar {   padding: 8px 15px; }
@@ -91,4 +113,25 @@
 	.fancybox-slide{ padding: 15px; }
 	.fancybox-content{    padding: 35px 20px;}
 	.frequency_radios [type="radio"]:checked + label, .frequency_radios [type="radio"]:not(:checked) + label, .no_of_meals{font-size: 20px;}
+	section.events_section {
+	    padding-left: 32px;
+	}
+	.custom_group_images_events{
+		padding-top: 80px;
+	}
+	.eb_col_2{     bottom: 105px; }
+}
+@media(max-width: 420px){
+	.banner_sm_img{width: 46px; }
+	.banner_md_img{width: 100px; }
+	.banner_lg_img{width: 156px; }
+	.eb_col_2{     bottom: 90px; }
+	.custom_group_images_events img { padding: 5px;}
+}
+@media(max-width:380px){
+	.banner_sm_img{width: 35px; }
+	.banner_md_img{width: 88px; }
+	.banner_lg_img{width: 130px; }
+	.eb_col_2{     bottom: 80px; }
+
 }
